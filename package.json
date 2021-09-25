@@ -1,0 +1,27 @@
+{
+  "name": "proj05_project_management_system",
+  "version": "1.0.0",
+  "description": "Project management system is a system inspired by applications like JIRA and Service Now that can be used to manage and track the status of any project, bugs, ehancement, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabh-mani/Project-Management-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabh-mani/Project-Management-System/issues"
+  },
+  "homepage": "https://github.com/saurabh-mani/Project-Management-System#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1"
+  }
+}

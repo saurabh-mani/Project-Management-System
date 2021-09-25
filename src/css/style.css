@@ -1,0 +1,21 @@
+body{
+	background: #21667b;
+}
+.box1{
+	width: 18.75rem;
+	background:#266b80;
+	color:#b0ced7;
+	padding: 10px;
+	margin: auto;
+	text-align:center;
+}
+.box1 a{
+	text-decoration:none;
+	color:#b0ced7;
+}
+.box1 a:hover{
+	background:#b0ced7;
+	color: #266b80;
+	padding:0.188rem;
+	border-radius:1.563rem;
+}
