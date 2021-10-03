@@ -10,3 +10,12 @@ Git will used for local version control and GitHub Will be used for cloud hostin
 <li>Required modules have been installed</li>
 <li>Login Page process initialized</li>
 </ul>
+
+# Update 2
+
+<ul>
+<li>Flex design container added</li>
+<li>Form centered</li>
+<li>Form styles updated</li>
+<li>Signup page created</li>
+</ul>
