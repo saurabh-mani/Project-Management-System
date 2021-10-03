@@ -17,6 +17,14 @@ app.get('/',(req,res)=>{
     });
 });
 
+//Signup Page
+app.get('/signup',(req,res)=>{
+    res.render('signup',{
+        msg:'',
+        clr:''
+    });
+});
+
 
 app.listen(port,()=>{
 	console.log("App is running in port "+port+"...");
