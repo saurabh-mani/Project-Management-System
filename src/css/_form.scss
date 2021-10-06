@@ -1,0 +1,30 @@
+.ip-{
+    &bx-ctn{
+        padding: 0.3125rem;
+        border-bottom: 0.001rem solid $lightblue;
+    }
+    &btn-ctn{
+        padding: 0.3125rem;
+    }
+}
+.input-box{
+	margin: 0.3125rem;
+	border:none;
+	background: transparent;
+	color:$lightblue;
+}
+.btn-{
+    &blue{
+        padding: 0.3125rem;
+        background: transparent;
+        color:$lightblue;
+        border: 0.125rem solid $lightblue;
+        border-radius: 1.5rem;
+        &:hover, &:focus{
+            cursor: pointer;
+            width: 100%;
+            background: $lightblue;
+            color: $darkblue;
+        }
+    }
+}

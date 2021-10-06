@@ -1,63 +1,94 @@
-body{
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
+html {
+  font-size: 100%;
 }
-.flex-container{
-	background: #21667b;
-	min-width: 100vw;
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
-.box1{
-	/*background:#266b80;*/
-	color:#b0ced7;
-	padding: 0.625rem;
-	display: grid;
-	place-items: center;
+
+.container {
+  background: #21667b;
+  min-width: 100vw;
+  min-height: 100vh;
 }
-h3{
-    border-bottom: #b2bbca solid 0.1875rem;
-    padding-bottom: 0.3125rem;
+
+.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
-.ip-bx-ctn,.ip-btn-ctn{
-	padding: 0.3125rem;
-	display: flex;
-	justify-content: center;
+
+.flexbox-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.ip-bx-ctn{
-	border-bottom: 0.1875rem solid #b0ced7;
+
+.flexbox-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.input-box{
-	margin: 0.3125rem;
-	border:none;
-	background: transparent;
-	color:#b0ced7;
-	text-align: center;
+
+.txt-al-c {
+  text-align: center;
 }
-.input-box:hover,.input-box:focus{
-	padding: 0.3125rem;
+
+.box1 {
+  color: #b0ced7;
+  padding: 0.625rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
 }
-.btn-blue{
-	padding: 0.3125rem;
-	background: transparent;
-	color:#b0ced7;
-	border: 0.125rem solid #b0ced7;
-	border-radius: 1.5rem;
+
+.box-title {
+  border-bottom: #b0ced7 solid 0.001rem;
+  padding-bottom: 0.3125rem;
 }
-.btn-blue:hover,.btn-blue:focus{
-	cursor: pointer;
-	width: 100%;
+
+.link1 {
+  text-decoration: none;
+  color: #b0ced7;
+  padding: 0.188rem;
 }
-.box1 a{
-	text-decoration:none;
-	color:#b0ced7;
+
+.link1:hover, .link1:focus {
+  background: #b0ced7;
+  color: #21667b;
+  border-radius: 1.563rem;
 }
-.box1 a:hover,.box1 a:focus{
-	background:#b0ced7;
-	color: #266b80;
-	padding:0.188rem;
-	border-radius:1.563rem;
+
+.ip-bx-ctn {
+  padding: 0.3125rem;
+  border-bottom: 0.001rem solid #b0ced7;
 }
+
+.ip-btn-ctn {
+  padding: 0.3125rem;
+}
+
+.input-box {
+  margin: 0.3125rem;
+  border: none;
+  background: transparent;
+  color: #b0ced7;
+}
+
+.btn-blue {
+  padding: 0.3125rem;
+  background: transparent;
+  color: #b0ced7;
+  border: 0.125rem solid #b0ced7;
+  border-radius: 1.5rem;
+}
+
+.btn-blue:hover, .btn-blue:focus {
+  cursor: pointer;
+  width: 100%;
+  background: #b0ced7;
+  color: #21667b;
+}
+/*# sourceMappingURL=style.css.map */

@@ -19,3 +19,10 @@ Git will used for local version control and GitHub Will be used for cloud hostin
 <li>Form styles updated</li>
 <li>Signup page created</li>
 </ul>
+
+# Update 3
+
+<ul>
+<li>Switched from CSS to SASS</li>
+<li>Helper classes added</li>
+</ul>
